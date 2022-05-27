@@ -13,7 +13,7 @@ class Student:
     
     def change_age(self, change_age):
         self.change_age = change_age
-        print("The student new age is: ", change_age)
+        print("The student new age is: ", int(change_age))
     
     def add_track(self, add_track):
         self.add_track = add_track
